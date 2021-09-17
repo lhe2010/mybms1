@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<settings>
+		<setting name="jdbcTypeForNull" value="NULL"/>
+	</settings>
+  <typeAliases>
+    <typeAlias type="com.mybms1.goods.vo.GoodsVO" alias="goodsVO" />
+    <typeAlias type="com.mybms1.goods.vo.ImageFileVO" alias="imageFileVO" />
+    <typeAlias type="com.mybms1.member.vo.MemberVO" alias="memberVO" />
+    <typeAlias type="com.mybms1.cart.vo.CartVO" alias="cartVO" />
+    <typeAlias type="com.mybms1.order.vo.OrderVO" alias="orderVO" />
+    <typeAlias type="com.mybms1.mypage.vo.MyPageVO" alias="mypageVO" />    
+  </typeAliases>
+  
+</configuration>
+
+
